@@ -1,49 +1,56 @@
-# Bank Project
+# 💰 Sit Bank – A Streamlit Banking Application
 
-This is a simple bank project built using Python and Streamlit. The application allows users to perform basic banking operations such as viewing balance, making deposits, and making withdrawals.
+[![Streamlit](https://img.shields.io/badge/Made%20with-Streamlit-orange?logo=streamlit)](https://streamlit.io)
 
-## Project Structure
+🔗 **Live App**: [Click here to use Sit Bank](https://sitbank-bzccl43xtbzkwop9m3tv5e.streamlit.app/)
 
-```
-bank-project
-├── app.py
-├── requirements.txt
-├── src
-│   ├── __init__.py
-│   ├── bank.py
-│   └── utils.py
-└── README.md
-```
+---
 
-## Setup Instructions
+## 📌 Overview
 
-1. **Clone the repository**:
-   ```
-   git clone <repository-url>
-   cd bank-project
-   ```
+**Sit Bank** is a simple, interactive, and lightweight banking simulation application built using **Python** and **Streamlit**. It allows users to perform essential banking operations in real-time, including viewing balances, depositing funds, and making withdrawals.
 
-2. **Install the required dependencies**:
-   ```
-   pip install -r requirements.txt
-   ```
+This project demonstrates object-oriented design, modular Python coding, and Streamlit-based web development.
 
-## Usage
+---
 
-To run the Streamlit application, use the following command:
+## ✨ Features
 
-```
-streamlit run app.py
-```
+- 👤 **Account Interface**
+  - Basic account creation and management via backend logic.
+  
+- 💵 **Balance Inquiry**
+  - View your current bank account balance instantly.
 
-Once the application is running, you can interact with the banking functionalities through the web interface.
+- ➕ **Deposit Money**
+  - Deposit any amount into your virtual account.
 
-## Features
+- ➖ **Withdraw Money**
+  - Withdraw money with real-time balance verification.
 
-- View account balance
-- Make deposits
-- Make withdrawals
+- ⚡ **Responsive & Minimal UI**
+  - Built with Streamlit for a fast and intuitive experience.
 
-## Contributing
+---
 
-Feel free to submit issues or pull requests for any improvements or features you would like to see in this project.
+## 🛠 Tech Stack
+
+| Technology | Description |
+|------------|-------------|
+| 🐍 Python | Core banking logic |
+| 🧱 OOP | Account and transaction abstraction |
+| 🌐 Streamlit | Web app interface |
+
+---
+
+## 📂 Project Structure
+
+```bash
+sit-bank/
+├── app.py                # Main Streamlit app file
+├── Banking/
+│   ├── account.py        # Account class definitions (BankAccount, SavingsAccount, etc.)
+│   └── transaction.py    # Functions to deposit and withdraw
+├── src/
+│   └── utils.py          # Utility functions (optional or helper methods)
+├── README.md             # Documentation file
